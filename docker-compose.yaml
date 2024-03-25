@@ -2,7 +2,7 @@
 services:
 
   wg-easy:
-    image: ghcr.io/wg-easy/wg-easy       # weejewel/wg-easy:7
+    image: ghcr.io/wg-easy/wg-easy       
     container_name: wg-easy        
     cap_add:
       - NET_ADMIN
